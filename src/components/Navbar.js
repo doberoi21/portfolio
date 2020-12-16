@@ -14,31 +14,31 @@ const Navbar = () => {
             Hi, my name is Divyanshi Oberoi.
             <br /> Welcome to my personal website!
           </p>
+
           <div className="tags">
             <NavLink to="https://github.com/doberoi21">
-              <i class="fab fa-github"></i>
+            <i class="fab fa-github-square"></i>
             </NavLink>
             <NavLink to="https://www.linkedin.com/in/divyanshi-oberoi-a006331aa/">
-              <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-linkedin"></i>
             </NavLink>
             <NavLink to="">
-              <i class="fab fa-instagram"></i>
+            <i class="fab fa-instagram-square"></i>
             </NavLink>
           </div>
         </div>
-       
-        <hr
-        style={{
-            color: "rgba(0,0,0,0.1)",
-            backgroundColor:"rgba(0,0,0,0.1)",
-            height: 0.3
-        }}
-    />
-       
+
+        <hr className="style-two" />
+
         {/* <br/> */}
         <div className="nav-menu">
-          <NavLink exact className="b active" activeClassName="active_class" to="/">
-            <i class="fas fa-address-card"></i>  About me
+          <NavLink
+            exact
+            className="b active"
+            activeClassName="active_class"
+            to="/"
+          >
+           <div className="comine"><i class="fas fa-address-card">&nbsp;&nbsp;&nbsp;&nbsp;</i>About me</div>
           </NavLink>
           <NavLink
             exact
@@ -46,7 +46,7 @@ const Navbar = () => {
             activeClassName="active_class"
             to="/skills"
           >
-            <i class="far fa-lightbulb"></i>  Skills
+            <div className="comine"><i class="far b fa-lightbulb">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>Skills</div>
           </NavLink>
           <NavLink
             exact
@@ -54,7 +54,7 @@ const Navbar = () => {
             activeClassName="active_class"
             to="/skills/projects"
           >
-            <i class="fas fa-project-diagram"></i>  Projects
+            <div className="comine"><i class="fas fa-project-diagram" style={{fontSize:'15px'}}>&nbsp;&nbsp;&nbsp;</i>Projects</div>
           </NavLink>
           <NavLink
             exact
@@ -62,19 +62,16 @@ const Navbar = () => {
             activeClassName="active_class"
             to="/skills/projects/contact"
           >
-            <i class="fas fa-envelope-open-text"></i>  Contact Me
+            <div className="comine"><i class="fas fa-envelope-open-text">&nbsp;&nbsp;&nbsp;&nbsp;</i>Contact Me</div>
           </NavLink>
         </div>
       </div>
-      <div className="main_container">
-          ABC
-      </div>
+      
     </div>
     // function myFunction() {
     //     var element = document.body;
     //     element.classList.toggle("dark-mode");
     //   }
-      
   );
 };
 export default Navbar;
