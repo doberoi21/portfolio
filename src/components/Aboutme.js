@@ -1,8 +1,13 @@
 import React from 'react';
-
+import './Aboutme.css';
 const Aboutme = () => {
     return(
-        <div>This is about Divyanshi</div>
+        <section className="section-one">
+            <div className="container-one">
+                <h2 className="name">DIVYANSHI OBEROI</h2>
+                <h3 className="job">STUDENT|FRONTEND Naman</h3>
+            </div>
+        </section>
     );
 }
 

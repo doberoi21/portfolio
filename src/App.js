@@ -6,13 +6,12 @@ import Projects from "./components/Projects";
 import Navbar from './components/Navbar';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import Navbar from '../../src/components/Navbar';
 const App = () => {
   return (
     <>
       <Router>
-        <Switch>
-          <Navbar />
+      <Navbar />
+        <Switch>         
           <Route path="/" exact component={Aboutme} />
           <Route path="/skills" exact component={Skills} />
           <Route path="/skills/projects" exact component={Projects} />

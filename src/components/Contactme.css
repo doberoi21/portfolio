@@ -1,0 +1,86 @@
+*{
+    color:  rgba(255, 0, 119, 0.924);
+}
+.container-first{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    /* margin: 30px; */
+    margin-left:20px;
+
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid pink;
+    background-color: rgba(255, 0, 119,0.2) ;
+    margin-bottom: 5px;
+    margin-left:21%;
+    width:155vh;
+    height:38vh;
+}
+.contact-tags i{
+    font-size:30px;
+    color:rgba(88, 41, 41, 0.808) ;
+    margin:10px;
+}
+.mail-id NavLink{
+    color: rgba(88, 41, 41, 0.808);
+}
+.fields label{
+    color: black;
+    font-size:15px;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    border:2px solid transparent;
+    margin-top: 15px;
+    margin-left:20%;
+    align-items: center;
+    width:400px;
+}
+h3{
+    color:black;
+    margin: 10px;
+    font-size: 30px;
+}
+NavLink{
+    color: black;
+}
+.main{
+    margin: 20px;
+  
+}
+p{
+    color:black;
+}
+label{
+    color: black;
+}
+.submit{
+    color:white;
+    background-color: rgb(255, 0, 119);
+    border-radius: 3px ;
+    padding: 5px;
+    width: 60px;
+}
+.submit:hover{
+    background-color: rgb(149, 6, 73);
+}
+input{
+    width:350px;
+    padding:5px;
+    color:black;
+    margin-bottom: 10px;
+}
+textarea{
+    width:350px;
+    padding:5px;  
+    color: black; 
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
