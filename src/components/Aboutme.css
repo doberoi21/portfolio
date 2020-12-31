@@ -9,16 +9,70 @@ body{
 }
 .section-one{
     /* max-width:900px; */
-    background-color: blue;
-    width: 75.8%; height: 100px; position: absolute; left: 23%; 
+    /* background-color: rgba(255, 0, 119,0.2); */
+    background-color: #e7d9ea;
+    width: 75.8%;  position: absolute; left: 23%; 
     margin-top: 5px;
+    height:40%;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:2% 4% 4% 4%;
 }
 .container-one{
     /* 1055 */
+    line-height: 1.5;
     display: flex;
     flex-direction: column;
+    /* border:2px solid yellow; */
 }
 .name{
-    color:aliceblue;
+    /* color:aliceblue; */
+    color:black;
 
+}
+.job{
+    color:#11698e;
+}
+.intro{
+    /* color:aliceblue; */
+    color:black;
+
+}
+.view{
+    width: 25%;
+    font-size: 15px;
+    margin-top:4px;
+    padding: 1%;
+    color:white;
+    /* background-color: #ff0077ec; */
+    background: #11698e;
+    border-radius:5%;
+}
+.far{
+    color:white;
+}
+.container-two{
+    display: flex;
+    justify-content: center;
+}
+.profile-photo{
+    border :6px solid black;
+    padding: 7px;
+}
+.about-part{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content:space-around;
+}
+.skilll{
+    width: 50%;
+    
+}
+.projects{
+    width: 50%;
+    margin-left:3%;
 }

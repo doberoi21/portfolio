@@ -2,7 +2,7 @@ import React from 'react';
 import Skills from "./components/Skills";
 import Aboutme from "./components/Aboutme";
 import Contact from "./components/Contactme";
-import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 import Navbar from './components/Navbar';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -14,7 +14,7 @@ const App = () => {
         <Switch>         
           <Route path="/" exact component={Aboutme} />
           <Route path="/skills" exact component={Skills} />
-          <Route path="/skills/projects" exact component={Projects} />
+          <Route path="/skills/resume" exact component={Resume} />
           <Route
             path="/skills/projects/contact"
             exact

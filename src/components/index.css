@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    text-decoration: none;
+    /* text-decoration: none; */
     font-family: 'Roboto';
 }
 body{
@@ -20,7 +20,8 @@ body{
     position:fixed;
     width: 300px;
     height: 100%;
-    background:#df0d53;
+    /* background:#df0d53; */
+    background-color: #0e49b5;
     padding: 30px 0;
     color: white;
 }
@@ -32,7 +33,7 @@ label{
 
     font-family: 'Roboto';
 }
-img{
+.Navprofile{
     border-radius:50%;
     border:3px solid white;
     margin-bottom: 9px;
@@ -109,8 +110,12 @@ span{
     background-color: black;
     color: white;
   }
- .active_class{
+.active_class{
     color:#3820c0;
+}
+.active_class:hover{
+    color:#3820c0;
+
 }
 hr.style-two {
     border: 0;

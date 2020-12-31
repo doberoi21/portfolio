@@ -10,7 +10,7 @@ const Contactme = () => {
     </div>
     <div className="container-first">
       <div className="part1">
-        <h3>CONTACT</h3>
+        <h3 className="contact-text">CONTACT ME</h3>
         <div className="main">
           <p>
             Interested in hiring me for your project or just want to say hi? You

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.resume{
+    border:2px solid black;
+    /* margin-left: 22.3%; */
+    margin-right: 18%;
+    margin-left:27%;
+  /* width: 77.4%; */
+  width:70%;
+  margin-top:2%;
+  margin-bottom: 1%;
+  background: #e7d9ea;
+  border-radius:3%;
+}
+.secone {
+  /* background: url("./rbg.jpg"); */
+  
+  display: flex;
+  flex-direction: row;
+  border-bottom:2px solid #19456b ;
+  width: 100%;
+  height:25vh;
+  /* height: 100%; */
+  /* margin-left: 23%; */
+  /* margin-top:2px; */
+  /* margin-right:8%; */
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    margin-left:3%;
+    /* align-items: center; */
+    /* align-content: center; */
+    flex-direction: column;
+}
+.header-name{
+    margin-top: 4%;
+    font-size:35px;
+    color:#19456b;
+}
+.header-intro{
+    font-size:22px;
+    color:#19456b;
+}
+.rcon{
+  margin-top:1%;
+  margin-left:13%;
+}
+.middle{
+  display: flex;
+  flex-direction: row;
+  /* margin-right:3%; */
+}
+.less-prior{
+    display: flex;
+    flex-direction: column;
+    margin-top:1.5%;
+    margin-left:5%;
+    margin-bottom: 1.5%;
+    margin-right:7%;
+}
+.skil{
+  margin:4% 0;
+}
+.wor{
+  margin-top:1%;
+  margin-left:8%;
+}
+.vol{
+  margin-top:1%;
+  margin-left:8%;
+}
+.cer{
+  margin-top:1%;
+  margin-left:8%;
+}

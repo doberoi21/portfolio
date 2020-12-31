@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="sidebar">
         <div className="profile-menu">
           <label>DIVYANSHI OBEROI</label>
-          <img src={profile} height="150px" width="150px" />
+          <img  className="Navprofile" src={profile} height="150px" width="150px" />
           <p className="profile-intro">
             Hi, my name is Divyanshi Oberoi.
             <br /> Welcome to my personal website!
@@ -46,15 +46,15 @@ const Navbar = () => {
             activeClassName="active_class"
             to="/skills"
           >
-            <span><i class="far b fa-lightbulb">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skills</i></span>
+            <span><i class="fas fa-lightbulb">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skills</i></span>
           </NavLink>
           <NavLink
             exact
             className="b"
             activeClassName="active_class"
-            to="/skills/projects"
+            to="/skills/resume"
           >
-            <span><i class="fas fa-project-diagram" style={{fontSize:'15px'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects</i></span>
+            <span><i class="fas fa-file">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resume</i></span>
           </NavLink>
           <NavLink
             exact
@@ -64,6 +64,7 @@ const Navbar = () => {
           >
           <span><i class="fas fa-envelope-open-text">&nbsp;&nbsp;&nbsp;&nbsp;Contact Me</i></span>
           </NavLink>
+          
         </div>
       </div>
     </div>

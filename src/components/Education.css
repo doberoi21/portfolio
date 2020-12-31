@@ -1,0 +1,14 @@
+.education{
+    color:white;
+    background:#19456b;
+    padding: 0.5%;
+    width:100%;
+    margin-bottom: 1%;
+}
+.edu-list{
+    display: flex;
+    flex-direction: row;
+}
+/* .fas{
+    font-size:20%;
+} */
