@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="nav-menu">
           <NavLink
             exact
-            className="b active"
+            className="b"
             activeClassName="active_class"
             to="/"
           >

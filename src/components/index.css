@@ -85,9 +85,9 @@ span{
     margin-left:70px;
     font-family: 'Roboto';
 }
-.nav-menu i:hover{
+/* .nav-menu i:hover{
     color: #020108;
-}
+} */
 .b i{
     color: white;
     margin-top:14px;
@@ -97,9 +97,9 @@ span{
     /* font-family: 'Roboto'; */
 }
 
-/* .b:hover i{
+.b:hover i {
     color:#020108;
-} */
+}
 .main_container {
     display: flex;
     flex: 1;
@@ -110,8 +110,8 @@ span{
     background-color: black;
     color: white;
   }
-.active_class{
-    color:#3820c0;
+.active_class i{
+    color:#020108;
 }
 .active_class:hover{
     color:#3820c0;
